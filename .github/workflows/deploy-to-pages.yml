@@ -8,6 +8,7 @@ on:
 env:
   ACCOUNT: HAL41
   SOURCE: AI-Insights
+  COLLECTION: _ai_insights
   BRANCH: master
 
 jobs:
@@ -18,10 +19,32 @@ jobs:
       - name: Checkout source repo ${{ env.SOURCE }}
         uses: actions/checkout@v4
 
-      - name: Create export folder and copy files
+      - name: Copy main README.md
         run: |
           mkdir -p export/$SOURCE
-          rsync -av --include="*/" --include="*.md" --exclude="*" ./ export/$SOURCE/
+          cp README.md export/${SOURCE}/.
+
+      - name: Generate front matter and organize collection
+        run: |
+          mkdir -p export/${COLLECTION}
+          find archive -type f -name '*.md' | while IFS= read -r file; do
+            year_month=$(basename "$(dirname "${file}")")
+            lang=$(basename "${file}" .md)
+            year=${year_month%-*}
+            month=${year_month#*-}
+            slug="$lang/$year/$month"
+            dest="export/${COLLECTION}/${year_month}-${lang}.md"
+            {
+              echo '---'
+              echo "lang: $lang"
+              echo "year: \"$year\""
+              echo "month: \"$month\""
+              echo "slug: $slug"
+              echo '---'
+              echo
+              cat "$file"
+            } > "$dest"
+          done
 
       - name: Rewrite image links to raw.githubusercontent URLs
         run: |
@@ -38,10 +61,12 @@ jobs:
 
       - name: Sync exported content to GH Pages repo
         run: |
+          cp -r export/${COLLECTION} gh-pages/
           cp -r export/${SOURCE} gh-pages/
           cd gh-pages
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add $SOURCE
+          git add ${COLLECTION}
+          git add ${SOURCE}
           git commit -m "Update from $SOURCE" || echo "No changes to commit"
           git push
