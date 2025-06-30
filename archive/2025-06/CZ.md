@@ -108,21 +108,21 @@ Udržet se informovaný v rychle se pohybujícím světě AI může být výzvou
 Zde je několik, které musíte slyšet:
 
 ### NVIDIA AI Podcast - [Listen here](https://open.spotify.com/episode/7gXRBig4UvnsfeK6DQ1o8r)
-- Hostem tohoto dílu je Matthias Loskyll, vedoucího virtuálního řízení a průmyslové umělé inteligence ve společnosti Siemens Factory Automation. Společně s moderátorem z NVIDIA rozebírají, jak AI, simulace a digitální dvojčata mění podobu moderní výroby. Zmiňují konkrétní příklady z praxe, například systém využívající AI k vysoce přesné detekci vad produktů. Loskyll vysvětluje, jak virtuální prostředí a AI modely urychlují vývoj, snižují náklady a umožňují chytřejší rozhodování na výrobní lince. Jde o praktickou a přitom vizionářskou diskusi, která ukazuje AI i mimo výzkumné laboratoře a dema – přímo v akci.
+Hostem tohoto dílu je Matthias Loskyll, vedoucího virtuálního řízení a průmyslové umělé inteligence ve společnosti Siemens Factory Automation. Společně s moderátorem z NVIDIA rozebírají, jak AI, simulace a digitální dvojčata mění podobu moderní výroby. Zmiňují konkrétní příklady z praxe, například systém využívající AI k vysoce přesné detekci vad produktů. Loskyll vysvětluje, jak virtuální prostředí a AI modely urychlují vývoj, snižují náklady a umožňují chytřejší rozhodování na výrobní lince. Jde o praktickou a přitom vizionářskou diskusi, která ukazuje AI i mimo výzkumné laboratoře a dema – přímo v akci.
 
 - **Složitost**: 🤯 🤯
 - **Použitelnost**: 🎯 🎯 🎯 🎯 🎯
 - **Horizont**: 🗓️
 
 ### MLOps Community Podcast - [Listen here](https://open.spotify.com/episode/77NPgKkWfpLc5w9MiCEAk9)
-- Tento díl realisticky zkoumá, proč se AI v mnoha skutečných systémech stále jeví spíš jako efektní ukázka a demo než jako nástroj připravený pro produkční nasazení. Demetrios Brinkmann a host Vaibhav Gupta, tvůrce jazyka BAML (jazyk podobný YAML určený pro bezpečné definování AI workflow), sdílí poznatky o tom, jak překlenout propast mezi experimentováním a produktivním nasazením. Společně rozebírají typické případy zbytečně složité architektury v LangChain, koncept "ověřitelné angličtiny" pro popis chování modelů a zamýšlejí se nad tím, proč by mohly být obyčejné řetězce textu tím dalším velkým tématem v AI vývoji.
+Tento díl realisticky zkoumá, proč se AI v mnoha skutečných systémech stále jeví spíš jako efektní ukázka a demo než jako nástroj připravený pro produkční nasazení. Demetrios Brinkmann a host Vaibhav Gupta, tvůrce jazyka BAML (jazyk podobný YAML určený pro bezpečné definování AI workflow), sdílí poznatky o tom, jak překlenout propast mezi experimentováním a produktivním nasazením. Společně rozebírají typické případy zbytečně složité architektury v LangChain, koncept "ověřitelné angličtiny" pro popis chování modelů a zamýšlejí se nad tím, proč by mohly být obyčejné řetězce textu tím dalším velkým tématem v AI vývoji.
 
 - **Složitost**: 🤯 🤯 🤯
 - **Použitelnost**: 🎯 🎯 🎯 🎯
 - **Horizont**: 🗓️ 🗓️
 
 ### The Diary of a CEO - [Listen here](https://open.spotify.com/episode/4X7dO0FuglP7yTm0kBAc50)
-- V jednom z nedávných dílů si moderátor Steven Bartlett povídá s "kmotrem AI". Geoffrey Hinton v upřímném a znepokojivém rozhovoru zmiňuje existenční rizika a nevyužitý potenciál umělé inteligence. Dále se rozebírají témata, jako jsou autonomní zbraně, kyberútoky, informační bubliny, nerovnosti nebo jaká může být budoucí role člověka ve světě dominovaném AI. Nejde však jen o apokalyptické scénáře – Hinton zmiňuje i naději, kterou AI přináší ve zdravotnictví, vzdělávání či produktivitě. Z tónu je ale patrné, že jde o výstražné varování od člověka, který pomáhal budovat technologie, před nimiž nás nyní varuje.
+V jednom z nedávných dílů si moderátor Steven Bartlett povídá s "kmotrem AI". Geoffrey Hinton v upřímném a znepokojivém rozhovoru zmiňuje existenční rizika a nevyužitý potenciál umělé inteligence. Dále se rozebírají témata, jako jsou autonomní zbraně, kyberútoky, informační bubliny, nerovnosti nebo jaká může být budoucí role člověka ve světě dominovaném AI. Nejde však jen o apokalyptické scénáře – Hinton zmiňuje i naději, kterou AI přináší ve zdravotnictví, vzdělávání či produktivitě. Z tónu je ale patrné, že jde o výstražné varování od člověka, který pomáhal budovat technologie, před nimiž nás nyní varuje.
 
 - **Složitost**: 🤯 🤯
 - **Použitelnost**: 🎯 🎯
